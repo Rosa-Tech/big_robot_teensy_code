@@ -10,7 +10,7 @@ void motion(char _data) {
     return;
   } 
   
-  // Debug output
+  // Debug output -- test for github
   Serial.print("Motion Cmd: ");
   Serial.println(_data);
 
