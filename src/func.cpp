@@ -132,6 +132,7 @@ void triggerPathBroadcast(uint8_t path) {
   sendModbusWrite(0x00, 0x6002, value);
 }
 
+// test for git
 void emergencyStopBroadcast() {
   Serial.println(">> E-STOP");
   sendModbusWrite(0x00, 0x6002, 0x0040);
